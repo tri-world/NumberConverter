@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="text"> Number Converter</h1>
+    <div id="box-container">
+        <div class="sidebar">
+        </div>
+<div id="box">
+   <div id="text-container">
+
+       <h1 style="color: white;">From</h1>
+       <h1 style="color: white;">To</h1>
+       
+   </div>
+   <div id="converter-container">
+        <select  id="from">
+            <option selected value="0">DECIMAL</option>
+            <option value="1">HEXADECIMAL</option>
+            <option value="2">OCTAL</option>
+            <option value="3">BINARY(0,1)</option>
+        </select>
+        <button class="btn" id="swap">SWAP</button>
+        <select id="to">
+            <option value="0">DECIMAL</option>
+            <option value="1">HEXADECIMAL</option>
+            <option value="2">OCTAL</option>
+            <option selected value="3">BINARY</option>
+        </select>
+
+   </div>
+   <div id="result-container">
+     
+     <input type="text" id="input" placeholder="INPUT">
+     <h1>==></h1>
+    
+     <input type="text"  id="output" placeholder="OUTPUT">
+   </div>
+   <div id="button-container">
+       <button class="btn" id="convert">Convert</button>
+       
+   </div> 
+</div>
+<div class="sidebar" >
+</div>
+</div>
+            
+  
+    
+  
+ 
+</body>
+<script src="script.js"></script>
+</html>

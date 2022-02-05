@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box-container{
+    display: flex;
+    justify-content: center;
+
+}
+.sidebar{
+    width: 500px;
+   background-color: darkslategray;
+}
+#box{
+    background-color: blueviolet;
+    width: 500px;
+    height: 700px;
+    
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+}
+
+
+#text-container{
+    gap: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#converter-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#from{
+   width: 200px;
+   height: 50px;
+   background-color: antiquewhite;    
+
+}
+
+
+#to{
+    width: 200px;
+    height: 50px; 
+    background-color: rgb(182, 155, 119); 
+    
+}
+
+#result-container{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+ #input{
+  
+        height: 40px; 
+        background-color: aqua;
+}
+#output{
+    height: 40px;
+    background-color: greenyellow; 
+}
+#button-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+
+}
+#convert{
+    background-color: tomato;
+    margin-top: 50px;
+}
+#swap{
+    background-color: violet;
+}
